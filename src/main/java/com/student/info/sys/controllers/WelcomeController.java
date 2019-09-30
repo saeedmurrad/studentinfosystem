@@ -11,11 +11,11 @@ public class WelcomeController {
     @RequestMapping(method = RequestMethod.GET, value = "/about")
     public String about(){
 
-        return "about";
+        return "A sample student information system in which student can enroll to one or many classes and can cancel enrollment.";
     }
 
     @RequestMapping(value = "", method = RequestMethod.GET)
     public String home(){
-        return "student info api v1";
+        return "Student Information System API v1";
     }
 }
